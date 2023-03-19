@@ -23,7 +23,7 @@ print_usage() {
 
   Flags without arguments:
     -h print this help message
-  ..."
+"
 }
 
 while getopts d:n:r:s:h flag

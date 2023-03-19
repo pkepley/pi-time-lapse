@@ -4,7 +4,7 @@
 mydir=$(pwd)
 myname=capture
 myrepeats=1
-mysleep=5
+mysleep=10
 
 # explain what will happen
 print_usage() {
@@ -13,15 +13,15 @@ print_usage() {
   Take one or more photos in a sequence.
 
   Flags with arguments:
-    -d directory: where the output will go (defaults to current dir, 
+    -d directory: where the output will go (defaults to current dir, and
        will create if it does not exist) 
     -n name: the base name of the output file (defaults to 'capture')
     -r repeats: the number of images to take (defaults to 1)
-    -s sleep: the sleep between each successive image (defaults to 5)
+    -s sleep: the sleep between each successive image (defaults to 10)
 
   Flags without arguments:
     -h print this help message
-  ..."
+"
 }
 
 # parse optional arguments
